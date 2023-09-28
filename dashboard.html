@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cybersecurity Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="http://localhost:3009/articles.html"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-container">
+        <article class="article">
+            <h2>Active Directory</h2>
+            <p>In today's digital world, cyber attacks are becoming increasingly sophisticated, and organizations must continuously monitor and improve their security measures. Penetration testing, commonly known as pen testing, is a crucial step in identifying vulnerabilities and weaknesses in an organization's systems, networks, and applications. One critical area that needs to be tested is organization's Active Directory (AD). This article will discuss Active Directory pen testing, why it is essential, and some examples of AD vulnerabilities.</p>
+            <h2>What is Active Directory?</h2>
+            
+            
+            <p>Active Directory is a directory service developed by Microsoft for managing and organizing information about users, computers, and other resources in a networked environment. It serves as a centralized database that stores information about network resources, such as user accounts, computers, printers, applications, and network devices. Active Directory is widely used in Windows-based networks and provides a way to manage and secure network resources in a centralized manner. It also supports authentication and authorization, enabling users to access network resources based on their permissions and roles. Active Directory uses a hierarchical tree-like structure called a domain, which provides a way to organize and manage resources in a logical and efficient way.</p>
+            <h2>Why is Active Directory PenTesting Essential?</h2>
+            <p>Active Directory PenTesting is essential because it helps to identify security weaknesses and vulnerabilities in Active Directory environment that can be exploited by attackers. These vulnerabilities can be in form of configuration errors, misconfigured permissions, unpatched systems, weak passwords, and other weaknesses that can be exploited by attackers. PenTesting helps organizations to identify these vulnerabilities before they are exploited by attackers, providing an opportunity to fix weaknesses before they are compromised. Active Directory PenTesting provides valuable insights into security posture of an organization and helps to identify and address security risks. It helps organizations to ensure that their Active Directory environment is secure, and their critical data and systems are protected against potential threats. Additionally, conducting regular Active Directory PenTesting is a best practice for maintaining compliance with regulatory requirements and industry standards.</p>
+        </article>
+
+        <article class="article">
+            <h2>Active Directory Pen Testing Process</h2>
+            <h3>Planning and Preparation</h3>
+            <p>Before starting pen testing process, it is essential to plan and prepare. planning phase involves defining scope of pen test, identifying systems and resources to be tested, and getting authorization from organization's management. During preparation phase, pen tester sets up testing environment, including creating test accounts, configuring testing tools, and identifying testing methodology to be used.
+
+                <h3>Information Gathering</h3>
+                Information gathering phase involves collecting information about target systems, including AD domain structure, network topology, and AD objects' permissions. This information helps pen tester identify potential vulnerabilities a</p>
+            <p><h3>Vulnerability Scanning</h3>
+                Vulnerability scanning phase involves using automated tools to scan AD environment for known vulnerabilities. tools check for misconfigured permissions, unpatched systems, weak passwords, and other vulnerabilities that can be exploited by attackers.
+                
+                <h3>Exploitation</h3>
+                Ecploitation phase involves using vulnerabilities identified in previous phase to gain unauthorized access to AD environment. pen tester uses various techniques to exploit vulnerabilities, including brute-force attacks, password spraying, and social engineering attacks.
+                
+                <h3>Reporting and Remediation</h3>
+                After completing pen testing process, pen tester compiles a report detailing vulnerabilities identified and exploitation techniques used. report also includes recommendations on how to remediate vulnerabilities and improve organization's overall security.</p>
+        </article>
+    </div>
+        
+        <!-- Add more articles as needed -->
+    </main>
+
+  
+</body>
+</html>
+
+
+<style>/* Reset some default styles */
+.content-container {
+    max-height: 120vh; /* Set a maximum height for scrollability */
+   
+    padding: 5px; /* Add padding for spacing */
+}
+
+body{
+    background-image: url('');
+}
+    
+    body, h1, h2, h3, p, ul, li {
+        
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: "Courier New", monospace;
+        background-color: #000;
+        color: #ff0000;
+        background-image: url('');
+    }
+    
+    header {
+        background-color: #000;
+        color: #ff0000;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #ff0000;
+    }
+    
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #000;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+    }
+    
+    .article {
+        margin-bottom: 20px;
+        border: 1px solid #ff0000;
+        padding: 20px;
+    }
+    
+    .article h2 {
+        color: white;
+        font-size: 24px;
+    }
+    
+    .article h3 {
+        margin-top: 10px;
+        color: white
+    }
+    
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #000;
+        color: #ff0000;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    /* Add any additional styles for a hacker-style look */
+    </style>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+    background-image: url('https://i.pinimg.com/736x/10/9d/73/109d732d44806095d8c29e89b8dddb54.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.7); /* Black with transparency */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            color: #ff0000; /* Red text color */
+        }
+
+        .container h2 {
+            text-align: center;
+        }
+
+        .container input[type="text"],
+        .container input[type="password"],
+        .container input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-bottom: 2px solid #ff0000; /* Red bottom border */
+            background-color: rgba(0, 0, 0, 0.3); /* Black with transparency */
+            color: #ffffff; /* White text color */
+        }
+
+        .container input[type="submit"] {
+            background-color: #ff0000; /* Red submit button */
+            color: #ffffff; /* White text color */
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .container input[type="submit"]:hover {
+            background-color: #ff3333; /* Darker red on hover */
+        }
+
+        .container p {
+            text-align: center;
+            color: #ff0000; /* Red text color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        
+        <form action="/reg" method="GET">
+            <input type="text" name ="fullname" placeholder="full_name">
+            <input type="text" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Password">
+            <input type="submit" value="Register">
+        </form>
+        <p>Already have an account? <a href="/login">Login</a></p>
+    </div>
+</body>
+</html>
